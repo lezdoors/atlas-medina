@@ -45,7 +45,11 @@ const IMG_HOVER =
 const CAPTION =
   "mt-3 text-[11px] tracking-[0.2em] uppercase font-body text-sand";
 
-export default function Guides() {
+export default function Guides({
+  index = "04",
+}: {
+  index?: string;
+} = {}) {
   const locale = useLocale();
 
   return (
@@ -54,7 +58,7 @@ export default function Guides() {
       <div className="max-w-[40rem]">
         <Reveal>
           <p className="text-[11px] tracking-[0.25em] uppercase font-body font-medium text-ink/60">
-            <span className="font-display text-ember tracking-tight">04</span>
+            <span className="font-display text-ember tracking-tight">{index}</span>
             <span className="mx-3">—</span>
             {STR.eyebrow[locale]}
           </p>

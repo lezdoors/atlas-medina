@@ -28,6 +28,9 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
+    alternates: {
+      languages: { en: "/en/contact", fr: "/fr/contact" },
+    },
   };
 }
 

@@ -13,7 +13,7 @@ const STR: Record<string, L> = {
   line2: { en: "into Morocco", fr: "vers le Maroc" },
   intro: {
     en: "Six experiences, one standard: a licensed local guide, a small group, and a day built around the place itself. Every departure cancels free up to 24 hours before.",
-    fr: "Six expériences, un même standard : un guide local agréé, un petit groupe et une journée pensée autour du lieu lui-même. Chaque départ s'annule gratuitement jusqu'à 24 h avant.",
+    fr: "Six expériences, un même standard : un guide local agréé, un petit groupe et une journée pensée autour du lieu lui-même. Chaque départ s’annule gratuitement jusqu’à 24 h avant.",
   },
   filterLabel: { en: "Filter tours by category", fr: "Filtrer les circuits par catégorie" },
   reviews: { en: "reviews", fr: "avis" },
@@ -73,7 +73,7 @@ export default function ToursIndex() {
                 type="button"
                 aria-pressed={active}
                 onClick={() => setFilter(c.key)}
-                className={`${LABEL} -mb-px border-b pb-4 transition-colors duration-500 ${EASE_CSS} ${
+                className={`${LABEL} -mb-px border-b pt-3 pb-4 transition-colors duration-500 ${EASE_CSS} ${
                   active
                     ? "border-ember text-ember"
                     : "border-transparent text-ink/60 hover:text-ink"

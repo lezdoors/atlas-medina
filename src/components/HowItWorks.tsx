@@ -23,7 +23,7 @@ const STEPS: { index: string; title: L; body: L }[] = [
     index: "02",
     title: { en: "Book in two minutes", fr: "Réservez en deux minutes" },
     body: {
-      en: "Choose a date, tell us who's coming, pay securely online. Confirmation lands instantly.",
+      en: "Choose a date, tell us who’s coming, pay securely online. Confirmation lands instantly.",
       fr: "Choisissez une date, dites-nous qui vient, payez en ligne en toute sécurité. Confirmation immédiate.",
     },
   },

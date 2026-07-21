@@ -22,15 +22,15 @@ const ITEMS: { q: L; a: L }[] = [
       fr: "Que se passe-t-il après ma réservation ?",
     },
     a: {
-      en: "You get an instant email confirmation with your meeting point and your guide's details, plus a WhatsApp contact. The evening before, we confirm timing directly.",
-      fr: "Vous recevez immédiatement un e-mail de confirmation avec le point de rencontre et les coordonnées de votre guide, plus un contact WhatsApp. La veille au soir, nous confirmons l'horaire directement.",
+      en: "You get an instant email confirmation with your meeting point and your guide’s details, plus a WhatsApp contact. The evening before, we confirm timing directly.",
+      fr: "Vous recevez immédiatement un e-mail de confirmation avec le point de rencontre et les coordonnées de votre guide, plus un contact WhatsApp. La veille au soir, nous confirmons l’horaire directement.",
     },
   },
   {
     q: { en: "Can I cancel?", fr: "Puis-je annuler ?" },
     a: {
       en: "Yes — free cancellation up to 24 hours before your tour, full refund. Weather cancellations on our side are always fully refunded.",
-      fr: "Oui — annulation gratuite jusqu'à 24 heures avant le départ, remboursement intégral. Toute annulation météo de notre côté est toujours intégralement remboursée.",
+      fr: "Oui — annulation gratuite jusqu’à 24 heures avant le départ, remboursement intégral. Toute annulation météo de notre côté est toujours intégralement remboursée.",
     },
   },
   {
@@ -40,7 +40,7 @@ const ITEMS: { q: L; a: L }[] = [
     },
     a: {
       en: "Every guide we work with holds an official Moroccan guide licence. It is the first thing we check and the reason we exist.",
-      fr: "Chaque guide avec qui nous travaillons détient une licence officielle de guide marocain. C'est la première chose que nous vérifions, et notre raison d'être.",
+      fr: "Chaque guide avec qui nous travaillons détient une licence officielle de guide marocain. C’est la première chose que nous vérifions, et notre raison d’être.",
     },
   },
   {

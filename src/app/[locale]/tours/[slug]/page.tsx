@@ -24,6 +24,12 @@ export async function generateMetadata({
   return {
     title: `${tour.title[l]} — Atlas & Medina`,
     description: tour.tagline[l],
+    alternates: {
+      languages: {
+        en: `/en/tours/${slug}`,
+        fr: `/fr/tours/${slug}`,
+      },
+    },
   };
 }
 

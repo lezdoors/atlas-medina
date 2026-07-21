@@ -21,11 +21,11 @@ const STR: Record<string, L> = {
   h3: { en: "who live it", fr: "le vivent" },
   p1: {
     en: "Every guide we work with holds an official Moroccan guide licence. It is the first thing we check and the reason we exist — the medina, the mountains and the desert, read by the people who were raised in them.",
-    fr: "Chaque guide avec qui nous travaillons détient une licence officielle de guide marocain. C'est la première chose que nous vérifions, et notre raison d'être — la médina, les montagnes et le désert, lus par ceux qui y ont grandi.",
+    fr: "Chaque guide avec qui nous travaillons détient une licence officielle de guide marocain. C’est la première chose que nous vérifions, et notre raison d’être — la médina, les montagnes et le désert, lus par ceux qui y ont grandi.",
   },
   p2: {
     en: "Groups stay small — never more than twelve, often eight. Free cancellation to twenty-four hours, instant confirmation, and a WhatsApp line to us the whole time. The guesswork stays out; the city does the talking.",
-    fr: "Les groupes restent petits — jamais plus de douze, souvent huit. Annulation gratuite jusqu'à 24 heures, confirmation immédiate, et une ligne WhatsApp avec nous en permanence. Les mauvaises surprises restent dehors ; la ville fait le reste.",
+    fr: "Les groupes restent petits — jamais plus de douze, souvent huit. Annulation gratuite jusqu’à 24 heures, confirmation immédiate, et une ligne WhatsApp avec nous en permanence. Les mauvaises surprises restent dehors ; la ville fait le reste.",
   },
   standardsLink: {
     en: "Our standards, in writing",
@@ -37,7 +37,7 @@ const STR: Record<string, L> = {
   },
   valleyCaption: {
     en: "Ourika valley — midmorning",
-    fr: "Vallée de l'Ourika — fin de matinée",
+    fr: "Vallée de l’Ourika — fin de matinée",
   },
   tableAlt: {
     en: "Lunch table set on a clay terrace in a mountain village",
@@ -86,7 +86,11 @@ const STAT_CELL_BORDERS = [
   "border-l border-t md:border-t-0",
 ];
 
-export default function Ethos() {
+export default function Ethos({
+  index = "03",
+}: {
+  index?: string;
+} = {}) {
   const locale = useLocale();
   const reduced = useReducedMotionSafe();
 
@@ -104,7 +108,7 @@ export default function Ethos() {
         <div className="lg:col-span-5 lg:sticky lg:top-28 self-start">
           <Reveal>
             <p className="text-[11px] tracking-[0.25em] uppercase font-body font-medium text-ink/60">
-              <span className="font-display text-ember tracking-tight">03</span>
+              <span className="font-display text-ember tracking-tight">{index}</span>
               <span className="mx-3">—</span>
               {STR.eyebrow[locale]}
             </p>
@@ -191,7 +195,7 @@ export default function Ethos() {
             key={stat.label.en}
             className={`border-ink/12 px-6 py-10 md:py-12 ${STAT_CELL_BORDERS[i]}`}
           >
-            <StatNumber value={stat.value} suffix={stat.suffix} />
+            <StatNumber value={stat.value} suffix={stat.suffix[locale]} />
             <p className="mt-3 text-[11px] tracking-[0.25em] uppercase font-body font-medium text-ink/60">
               {stat.label[locale]}
             </p>

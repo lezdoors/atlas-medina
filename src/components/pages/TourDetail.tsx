@@ -12,7 +12,7 @@ import {
   Reveal,
   useReducedMotionSafe,
 } from "@/lib/motion";
-import { formatPrice, UI, useLocale, type L } from "@/lib/i18n";
+import { formatPrice, UI, useLocale, type L, formatRating } from "@/lib/i18n";
 import { categories, getTour } from "@/lib/tours-full";
 
 const STR = {
@@ -76,7 +76,7 @@ export default function TourDetail({ slug }: { slug: string }) {
             — {UI.perPerson[locale]}
           </p>
           <p className="text-[13px] text-ink/60">
-            {tour.rating} · {tour.reviewCount} {UI.reviews[locale]}
+            {formatRating(tour.rating, locale)} · {tour.reviewCount} {UI.reviews[locale]}
           </p>
           <p className="text-[13px] text-ink/60">{tour.durationLabel[locale]}</p>
           <p className="text-[13px] text-ink/60">

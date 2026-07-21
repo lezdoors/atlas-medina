@@ -11,6 +11,8 @@ export const LABEL =
   "text-[11px] tracking-[0.25em] uppercase font-body font-medium";
 export const LABEL_SM =
   "text-[10px] tracking-[0.25em] uppercase font-body font-medium";
+export const CAPTION =
+  "mt-3 text-[11px] tracking-[0.2em] uppercase font-body text-sand";
 
 const RM_QUERY = "(prefers-reduced-motion: reduce)";
 const subscribe = (cb: () => void) => {

@@ -28,17 +28,15 @@ const STR: Record<string, L> = {
   },
   alt: {
     en: "A lone walker crossing a dune crest at sunset",
-    fr: "Un marcheur solitaire franchissant la crête d'une dune au coucher du soleil",
+    fr: "Un marcheur solitaire franchissant la crête d’une dune au coucher du soleil",
   },
   experiences: { en: "Experiences", fr: "Expériences" },
   company: { en: "Company", fr: "Société" },
   marrakech: { en: "Marrakech", fr: "Marrakech" },
-  ledger: { en: "Ledger", fr: "Registre" },
   contact: { en: "Contact & bookings", fr: "Contact & réservations" },
-  terms: { en: "Terms", fr: "Conditions" },
   legal: {
     en: "© MMXXVI Atlas & Medina — a trading name of Altus Lumen Ltd, England & Wales no. 17331447",
-    fr: "© MMXXVI Atlas & Medina — nom commercial d'Altus Lumen Ltd, Angleterre & pays de Galles n° 17331447",
+    fr: "© MMXXVI Atlas & Medina — nom commercial d’Altus Lumen Ltd, Angleterre & pays de Galles n° 17331447",
   },
   motto: {
     en: "No two departures alike",
@@ -50,12 +48,6 @@ const COMPANY: { label: L; path: string }[] = [
   { label: { en: "Tours", fr: "Circuits" }, path: "tours" },
   { label: { en: "Ethos", fr: "Éthique" }, path: "ethos" },
   { label: { en: "Journal", fr: "Journal" }, path: "journal" },
-];
-
-const LEDGER: L[] = [
-  { en: "Instagram", fr: "Instagram" },
-  { en: "GetYourGuide", fr: "GetYourGuide" },
-  STR.terms,
 ];
 
 export default function Footer() {
@@ -134,7 +126,7 @@ export default function Footer() {
           </p>
         </Reveal>
 
-        <div className="mt-20 grid grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-4">
+        <div className="mt-20 grid grid-cols-2 gap-x-8 gap-y-12 md:grid-cols-3">
           <div>
             <h3 className={`${LABEL_SM} text-sand`}>
               {STR.experiences[locale]}
@@ -180,22 +172,6 @@ export default function Footer() {
                   {STR.contact[locale]}
                 </Link>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className={`${LABEL_SM} text-sand`}>{STR.ledger[locale]}</h3>
-            <ul className="mt-5 space-y-3">
-              {LEDGER.map((label) => (
-                <li key={label.en}>
-                  <a
-                    href="#"
-                    className="link-underline text-[13px] font-body text-ink/60"
-                  >
-                    {label[locale]}
-                  </a>
-                </li>
-              ))}
             </ul>
           </div>
         </div>

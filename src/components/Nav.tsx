@@ -21,6 +21,7 @@ const ROUTES: { path: string; label: L }[] = [
 ];
 
 const STR: Record<string, L> = {
+  primary: { en: "Primary", fr: "Navigation principale" },
   openMenu: { en: "Open menu", fr: "Ouvrir le menu" },
   closeMenu: { en: "Close menu", fr: "Fermer le menu" },
   menu: { en: "Menu", fr: "Menu" },
@@ -168,7 +169,7 @@ export default function Nav() {
 
           {/* Centre links — desktop only */}
           <nav
-            aria-label="Primary"
+            aria-label={STR.primary[locale]}
             className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 lg:flex"
           >
             {ROUTES.map((route) => (

@@ -71,7 +71,7 @@ export const TOURS: Tour[] = [
     image: "/images/atlas-2.webp",
     blurb: {
       en: "A full day into the High Atlas with the people who were born on its trails. Valley walks, a village lunch on a clay terrace, peaks behind.",
-      fr: "Une journée entière dans le Haut Atlas avec ceux qui sont nés sur ses sentiers. Marche dans la vallée, déjeuner chez l'habitant en terrasse, les sommets en toile de fond.",
+      fr: "Une journée entière dans le Haut Atlas avec ceux qui sont nés sur ses sentiers. Marche dans la vallée, déjeuner chez l’habitant en terrasse, les sommets en toile de fond.",
     },
   },
   {
@@ -108,8 +108,8 @@ export const TOURS: Tour[] = [
     priceEUR: 49,
     image: "/images/heritage-1.webp",
     blurb: {
-      en: "Skip-the-line at Majorelle, then the palaces and the quiet courtyards between them — four hours of the city's history, without the crowds.",
-      fr: "Coupe-file à Majorelle, puis les palais et les cours silencieuses qui les relient — quatre heures d'histoire, sans la foule.",
+      en: "Skip-the-line at Majorelle, then the palaces and the quiet courtyards between them — four hours of the city’s history, without the crowds.",
+      fr: "Coupe-file à Majorelle, puis les palais et les cours silencieuses qui les relient — quatre heures d’histoire, sans la foule.",
     },
   },
   {
@@ -127,31 +127,31 @@ export const TOURS: Tour[] = [
     priceEUR: 69,
     image: "/images/essaouira-2.webp",
     blurb: {
-      en: "Trade-wind coastline, blue boats in the harbour, ramparts over the Atlantic. A full day by the sea with the day's catch on the table.",
-      fr: "Côte aux alizés, barques bleues au port, remparts face à l'Atlantique. Une journée entière en bord de mer, la pêche du jour à table.",
+      en: "Trade-wind coastline, blue boats in the harbour, ramparts over the Atlantic. A full day by the sea with the day’s catch on the table.",
+      fr: "Côte aux alizés, barques bleues au port, remparts face à l’Atlantique. Une journée entière en bord de mer, la pêche du jour à table.",
     },
   },
 ];
 
-export const STATS: { value: number; suffix: string; label: L }[] = [
+export const STATS: { value: number; suffix: L; label: L }[] = [
   {
     value: 700,
-    suffix: "+",
+    suffix: { en: "+", fr: "+" },
     label: { en: "Traveller reviews", fr: "Avis de voyageurs" },
   },
   {
     value: 6,
-    suffix: "",
+    suffix: { en: "", fr: "" },
     label: { en: "Experiences, refined", fr: "Expériences, affinées" },
   },
   {
     value: 24,
-    suffix: "h",
-    label: { en: "Free-cancellation window", fr: "D'annulation gratuite" },
+    suffix: { en: "h", fr: "\u00A0h" },
+    label: { en: "Free-cancellation window", fr: "D’annulation gratuite" },
   },
   {
     value: 12,
-    suffix: "",
+    suffix: { en: "", fr: "" },
     label: { en: "Guests, never more", fr: "Voyageurs, jamais plus" },
   },
 ];
@@ -192,7 +192,7 @@ export const JOURNAL: {
     index: "N.012",
     title: {
       en: "Agafay at noon, before the tents",
-      fr: "L'Agafay à midi, avant les tentes",
+      fr: "L’Agafay à midi, avant les tentes",
     },
     tag: { en: "Terrain", fr: "Terrain" },
     date: { en: "January 2026", fr: "Janvier 2026" },
@@ -209,7 +209,7 @@ export const NAV_LINKS: { label: L; href: string }[] = [
 
 export const TRUST: L[] = [
   { en: "Licensed local guides", fr: "Guides locaux agréés" },
-  { en: "Free cancellation up to 24h", fr: "Annulation gratuite jusqu'à 24 h" },
+  { en: "Free cancellation up to 24h", fr: "Annulation gratuite jusqu’à 24 h" },
   { en: "Small groups only", fr: "Petits groupes uniquement" },
   { en: "Instant confirmation", fr: "Confirmation immédiate" },
 ];

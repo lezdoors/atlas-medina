@@ -100,7 +100,7 @@ export default function Hero() {
     return () => clearInterval(id);
   }, [reduced, active]);
 
-  const shown = reduced ? 0 : active;
+  const shown = active;
 
   return (
     <section
@@ -198,22 +198,26 @@ export default function Hero() {
           <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-sand font-body md:text-[11px]">
             {COORDINATES} / {STR.kingdom[locale]}
           </p>
-          {/* Mobile frame dashes */}
-          {!reduced && (
-            <div className="mt-3 flex gap-2 md:hidden" aria-hidden>
-              {FRAMES.map((frame, i) => (
-                <button
-                  key={frame.src}
-                  type="button"
-                  tabIndex={-1}
-                  onClick={() => setActive(i)}
-                  className={`h-px w-8 transition-colors duration-500 ${
+          {/* Mobile frame selector */}
+          <div className="mt-1 flex md:hidden">
+            {FRAMES.map((frame, i) => (
+              <button
+                key={frame.src}
+                type="button"
+                aria-label={`${STR.showFrame[locale]} ${frame.caption[locale]}`}
+                aria-pressed={shown === i}
+                onClick={() => setActive(i)}
+                className="flex h-8 items-center pr-2"
+              >
+                <span
+                  aria-hidden
+                  className={`block h-px w-8 transition-colors duration-500 ${
                     shown === i ? "bg-ember" : "bg-bone/25"
                   }`}
                 />
-              ))}
-            </div>
-          )}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Scroll cue — 1px vertical line with a looping traveller */}

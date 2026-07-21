@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Nav from "@/components/Nav";
+import EthosHeader from "@/components/pages/EthosHeader";
 import Ethos from "@/components/Ethos";
 import Guides from "@/components/Guides";
 import Manifesto from "@/components/Manifesto";
@@ -31,6 +32,9 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
+    alternates: {
+      languages: { en: "/en/ethos", fr: "/fr/ethos" },
+    },
   };
 }
 
@@ -41,30 +45,16 @@ export default async function EthosPage({
 }) {
   const { locale } = await params;
   if (!LOCALES.includes(locale as Locale)) notFound();
-  const fr = locale === "fr";
 
   return (
     <>
       <Nav />
       <main>
-        <section className="pt-28 md:pt-36 px-5 md:px-10 xl:px-16">
-          <p className="text-[11px] tracking-[0.25em] uppercase font-body font-medium text-ink/60">
-            {fr ? "À propos" : "About us"}
-          </p>
-          <h1 className="mt-6 font-display uppercase tracking-tight text-[clamp(3rem,9vw,8rem)] leading-[0.85] text-ink">
-            <span className="block">
-              {fr ? "Tenu par des locaux," : "Run by locals,"}
-            </span>
-            <span className="block">
-              {fr ? "fait pour durer" : "built to last"}
-              <span className="text-ember">.</span>
-            </span>
-          </h1>
-        </section>
-        <Ethos />
-        <Guides />
+        <EthosHeader />
+        <Ethos index="01" />
+        <Guides index="02" />
         <Manifesto />
-        <Voices />
+        <Voices index="03" />
       </main>
       <Footer />
     </>

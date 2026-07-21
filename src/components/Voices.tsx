@@ -65,7 +65,11 @@ const VOICES: Voice[] = [
   },
 ];
 
-export default function Voices() {
+export default function Voices({
+  index = "05",
+}: {
+  index?: string;
+} = {}) {
   const locale = useLocale();
   return (
     <section
@@ -76,7 +80,7 @@ export default function Voices() {
         <div>
           <Reveal>
             <p className={`${LABEL} text-ink/60`}>
-              <span className="font-display text-ember tracking-tight">05</span>
+              <span className="font-display text-ember tracking-tight">{index}</span>
               <span className="mx-3">—</span>
               {STR.eyebrow[locale]}
             </p>

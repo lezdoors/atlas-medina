@@ -89,8 +89,8 @@ export const tours: Tour[] = [
       fr: "La vieille ville décodée par un guide local agréé — souks, riads et histoires derrière les murailles.",
     },
     description: {
-      en: "Nine centuries of history live inside the ochre walls of the medina — but without a guide, most of it stays invisible. On this small-group walking tour, a licensed Marrakchi guide leads you through the souks of the artisans, the hidden fondouks where caravans once traded, the Ben Youssef quarter, and the lanes even repeat visitors miss. You'll learn how to read the medina: what the doors say about the families behind them, how the guilds still organise the souks, and where to come back on your own — with honest prices.",
-      fr: "Neuf siècles d'histoire vivent entre les murs ocre de la médina — mais sans guide, l'essentiel reste invisible. Lors de cette visite à pied en petit groupe, un guide marrakchi agréé vous mène à travers les souks des artisans, les fondouks cachés où commerçaient les caravanes, le quartier Ben Youssef et les ruelles que même les habitués manquent. Vous apprendrez à lire la médina : ce que les portes révèlent des familles, comment les corporations organisent encore les souks, et où revenir seul — aux prix justes.",
+      en: "Nine centuries of history live inside the ochre walls of the medina — but without a guide, most of it stays invisible. On this small-group walking tour, a licensed Marrakchi guide leads you through the souks of the artisans, the hidden fondouks where caravans once traded, the Ben Youssef quarter, and the lanes even repeat visitors miss. You’ll learn how to read the medina: what the doors say about the families behind them, how the guilds still organise the souks, and where to come back on your own — with honest prices.",
+      fr: "Neuf siècles d’histoire vivent entre les murs ocre de la médina — mais sans guide, l’essentiel reste invisible. Lors de cette visite à pied en petit groupe, un guide marrakchi agréé vous mène à travers les souks des artisans, les fondouks cachés où commerçaient les caravanes, le quartier Ben Youssef et les ruelles que même les habitués manquent. Vous apprendrez à lire la médina : ce que les portes révèlent des familles, comment les corporations organisent encore les souks, et où revenir seul — aux prix justes.",
     },
     durationLabel: { en: "3 hours", fr: "3 heures" },
     priceEUR: 39,
@@ -101,7 +101,7 @@ export const tours: Tour[] = [
     gallery: [IMG.medina1, IMG.medina2, IMG.medina3],
     highlights: [
       { en: "Licensed local guide, small group (max 10)", fr: "Guide local agréé, petit groupe (10 max)" },
-      { en: "Artisan souks: leather, brass, dyers' quarter", fr: "Souks artisanaux : cuir, laiton, quartier des teinturiers" },
+      { en: "Artisan souks: leather, brass, dyers’ quarter", fr: "Souks artisanaux : cuir, laiton, quartier des teinturiers" },
       { en: "Hidden fondouks and riad architecture", fr: "Fondouks cachés et architecture des riads" },
       { en: "Ends at a rooftop café over Jemaa el-Fnaa", fr: "Fin sur un café-terrasse dominant Jemaa el-Fnaa" },
     ],
@@ -110,23 +110,23 @@ export const tours: Tour[] = [
         time: "09:30",
         title: { en: "Koutoubia gardens — meet your guide", fr: "Jardins de la Koutoubia — rencontre avec votre guide" },
         body: {
-          en: "Quick orientation under Marrakech's landmark minaret before entering the old city.",
-          fr: "Brève orientation sous le minaret emblématique de Marrakech avant d'entrer dans la vieille ville.",
+          en: "Quick orientation under Marrakech’s landmark minaret before entering the old city.",
+          fr: "Brève orientation sous le minaret emblématique de Marrakech avant d’entrer dans la vieille ville.",
         },
       },
       {
         time: "10:00",
         title: { en: "The artisan souks", fr: "Les souks artisanaux" },
         body: {
-          en: "Leatherworkers, coppersmiths and the dyers' souk — how the guilds work, what's handmade and what isn't.",
-          fr: "Maroquiniers, dinandiers et souk des teinturiers — le fonctionnement des corporations, ce qui est artisanal et ce qui ne l'est pas.",
+          en: "Leatherworkers, coppersmiths and the dyers’ souk — how the guilds work, what’s handmade and what isn’t.",
+          fr: "Maroquiniers, dinandiers et souk des teinturiers — le fonctionnement des corporations, ce qui est artisanal et ce qui ne l’est pas.",
         },
       },
       {
         time: "11:15",
         title: { en: "Fondouks & Ben Youssef quarter", fr: "Fondouks et quartier Ben Youssef" },
         body: {
-          en: "Step into the caravanserais where trans-Saharan caravans traded, and the medersa quarter's finest doorways.",
+          en: "Step into the caravanserais where trans-Saharan caravans traded, and the medersa quarter’s finest doorways.",
           fr: "Entrez dans les caravansérails où commerçaient les caravanes transsahariennes, et découvrez les plus belles portes du quartier de la médersa.",
         },
       },
@@ -152,7 +152,7 @@ export const tours: Tour[] = [
     meetingPoint: {
       name: { en: "Koutoubia Mosque gardens, main fountain", fr: "Jardins de la Koutoubia, fontaine principale" },
       details: {
-        en: "Your guide holds an 'Atlas & Medina' sign. 5 minutes' walk from Jemaa el-Fnaa.",
+        en: "Your guide holds an 'Atlas & Medina’ sign. 5 minutes’ walk from Jemaa el-Fnaa.",
         fr: "Votre guide tient une pancarte « Atlas & Medina ». À 5 minutes à pied de Jemaa el-Fnaa.",
       },
       mapsQuery: "Koutoubia Mosque, Marrakech",
@@ -161,19 +161,19 @@ export const tours: Tour[] = [
       {
         q: { en: "Is this tour suitable for children?", fr: "Cette visite convient-elle aux enfants ?" },
         a: {
-          en: "Yes — it's a flat, easy walk with plenty of stops. Children under 6 join free.",
-          fr: "Oui — c'est une marche facile et plate avec de nombreuses pauses. Gratuit pour les moins de 6 ans.",
+          en: "Yes — it’s a flat, easy walk with plenty of stops. Children under 6 join free.",
+          fr: "Oui — c’est une marche facile et plate avec de nombreuses pauses. Gratuit pour les moins de 6 ans.",
         },
       },
       {
         q: { en: "Will I be pressured to buy in the souks?", fr: "Serai-je poussé à acheter dans les souks ?" },
         a: {
-          en: "No. We don't take commissions from shops — that's the point of going with an independent licensed guide.",
-          fr: "Non. Nous ne prenons aucune commission des boutiques — c'est tout l'intérêt d'un guide agréé indépendant.",
+          en: "No. We don’t take commissions from shops — that’s the point of going with an independent licensed guide.",
+          fr: "Non. Nous ne prenons aucune commission des boutiques — c’est tout l’intérêt d’un guide agréé indépendant.",
         },
       },
       {
-        q: { en: "What should I wear?", fr: "Comment s'habiller ?" },
+        q: { en: "What should I wear?", fr: "Comment s’habiller ?" },
         a: {
           en: "Comfortable shoes and light, modest clothing. A hat and water in summer.",
           fr: "Chaussures confortables et tenue légère et respectueuse. Chapeau et eau en été.",
@@ -193,8 +193,8 @@ export const tours: Tour[] = [
       fr: "Mangez là où mangent les Marrakchis — tanjia, msemen, olives et le théâtre nocturne de Jemaa el-Fnaa.",
     },
     description: {
-      en: "Marrakech is one of the world's great street-food cities — if you know which stalls locals trust. As the medina lights up, your food-obsessed local guide takes you through eight tastings: slow-cooked tanjia from the communal ovens, msemen off the griddle, olives and preserved lemons in the spice souk, seasonal fruit at the night market, and a proper glass of mint tea to finish. Every stop is a stall or family-run eatery we work with directly, chosen for hygiene as much as flavour.",
-      fr: "Marrakech est l'une des grandes capitales mondiales de la cuisine de rue — quand on connaît les échoppes de confiance. Quand la médina s'illumine, votre guide passionné de cuisine vous emmène pour huit dégustations : tanjia mijotée dans les fours communaux, msemen sortis de la plaque, olives et citrons confits au souk aux épices, fruits de saison au marché nocturne, et un vrai thé à la menthe pour finir. Chaque étape est une échoppe ou une adresse familiale avec laquelle nous travaillons directement, choisie autant pour l'hygiène que pour le goût.",
+      en: "Marrakech is one of the world’s great street-food cities — if you know which stalls locals trust. As the medina lights up, your food-obsessed local guide takes you through eight tastings: slow-cooked tanjia from the communal ovens, msemen off the griddle, olives and preserved lemons in the spice souk, seasonal fruit at the night market, and a proper glass of mint tea to finish. Every stop is a stall or family-run eatery we work with directly, chosen for hygiene as much as flavour.",
+      fr: "Marrakech est l’une des grandes capitales mondiales de la cuisine de rue — quand on connaît les échoppes de confiance. Quand la médina s’illumine, votre guide passionné de cuisine vous emmène pour huit dégustations : tanjia mijotée dans les fours communaux, msemen sortis de la plaque, olives et citrons confits au souk aux épices, fruits de saison au marché nocturne, et un vrai thé à la menthe pour finir. Chaque étape est une échoppe ou une adresse familiale avec laquelle nous travaillons directement, choisie autant pour l’hygiène que pour le goût.",
     },
     durationLabel: { en: "3.5 hours", fr: "3 h 30" },
     priceEUR: 55,
@@ -206,8 +206,8 @@ export const tours: Tour[] = [
     highlights: [
       { en: "8 tastings across the medina — dinner included in practice", fr: "8 dégustations à travers la médina — un vrai dîner en pratique" },
       { en: "Tanjia from the communal ovens, the Marrakchi speciality", fr: "Tanjia des fours communaux, la spécialité marrakchie" },
-      { en: "Stalls vetted for hygiene, visited daily", fr: "Échoppes contrôlées pour l'hygiène, visitées chaque jour" },
-      { en: "Max 8 guests — it stays personal", fr: "8 convives max — l'expérience reste personnelle" },
+      { en: "Stalls vetted for hygiene, visited daily", fr: "Échoppes contrôlées pour l’hygiène, visitées chaque jour" },
+      { en: "Max 8 guests — it stays personal", fr: "8 convives max — l’expérience reste personnelle" },
     ],
     itinerary: [
       {
@@ -222,7 +222,7 @@ export const tours: Tour[] = [
         time: "18:45",
         title: { en: "The communal ovens: tanjia", fr: "Les fours communaux : la tanjia" },
         body: {
-          en: "Meet the men who tend the fires and taste Marrakech's signature dish, slow-cooked in embers for hours.",
+          en: "Meet the men who tend the fires and taste Marrakech’s signature dish, slow-cooked in embers for hours.",
           fr: "Rencontrez les gardiens du feu et goûtez le plat signature de Marrakech, mijoté des heures sous la braise.",
         },
       },
@@ -239,7 +239,7 @@ export const tours: Tour[] = [
         title: { en: "Jemaa el-Fnaa by night", fr: "Jemaa el-Fnaa la nuit" },
         body: {
           en: "The square at full tilt: snail broth for the brave, fresh juice, and mint tea to close.",
-          fr: "La place en pleine effervescence : bouillon d'escargots pour les courageux, jus frais, et thé à la menthe pour clore.",
+          fr: "La place en pleine effervescence : bouillon d’escargots pour les courageux, jus frais, et thé à la menthe pour clore.",
         },
       },
     ],
@@ -256,7 +256,7 @@ export const tours: Tour[] = [
     meetingPoint: {
       name: { en: "Place des Ferblantiers, main gate", fr: "Place des Ferblantiers, porte principale" },
       details: {
-        en: "Look for the 'Atlas & Medina' sign. 10 minutes' walk from Jemaa el-Fnaa.",
+        en: "Look for the 'Atlas & Medina’ sign. 10 minutes’ walk from Jemaa el-Fnaa.",
         fr: "Cherchez la pancarte « Atlas & Medina ». À 10 minutes à pied de Jemaa el-Fnaa.",
       },
       mapsQuery: "Place des Ferblantiers, Marrakech",
@@ -273,13 +273,13 @@ export const tours: Tour[] = [
         q: { en: "Is the street food safe?", fr: "La cuisine de rue est-elle sûre ?" },
         a: {
           en: "We only use stalls we visit daily and have worked with for years — hygiene is our first selection criterion.",
-          fr: "Nous ne travaillons qu'avec des échoppes visitées quotidiennement depuis des années — l'hygiène est notre premier critère.",
+          fr: "Nous ne travaillons qu’avec des échoppes visitées quotidiennement depuis des années — l’hygiène est notre premier critère.",
         },
       },
       {
         q: { en: "How much food is it really?", fr: "Quelle quantité mange-t-on vraiment ?" },
         a: {
-          en: "Eight tastings add up to a generous dinner. Skip lunch — you'll thank us.",
+          en: "Eight tastings add up to a generous dinner. Skip lunch — you’ll thank us.",
           fr: "Huit dégustations équivalent à un dîner généreux. Sautez le déjeuner — vous nous remercierez.",
         },
       },
@@ -294,11 +294,11 @@ export const tours: Tour[] = [
     },
     tagline: {
       en: "Snow-capped peaks an hour from the medina — valley walks, mountain tea, and lunch in a family home.",
-      fr: "Des sommets enneigés à une heure de la médina — marche dans la vallée, thé de montagne et déjeuner chez l'habitant.",
+      fr: "Des sommets enneigés à une heure de la médina — marche dans la vallée, thé de montagne et déjeuner chez l’habitant.",
     },
     description: {
-      en: "The High Atlas rises less than an hour from Marrakech, and with it a different Morocco: Amazigh villages stacked on the hillsides, walnut groves, irrigation channels older than the city itself. With a licensed mountain guide you'll walk the Imlil valley at an easy pace, cross villages linked by mule paths, and sit down to a home-cooked tagine with a local family — the kind of day that ends up being the one travellers remember.",
-      fr: "Le Haut Atlas se dresse à moins d'une heure de Marrakech, et avec lui un autre Maroc : villages amazighs accrochés aux versants, noyeraies, canaux d'irrigation plus anciens que la ville elle-même. Avec un guide de montagne agréé, vous marcherez dans la vallée d'Imlil à un rythme tranquille, traverserez des villages reliés par des sentiers muletiers, et partagerez un tagine maison chez une famille locale — le genre de journée dont les voyageurs se souviennent le plus.",
+      en: "The High Atlas rises less than an hour from Marrakech, and with it a different Morocco: Amazigh villages stacked on the hillsides, walnut groves, irrigation channels older than the city itself. With a licensed mountain guide you’ll walk the Imlil valley at an easy pace, cross villages linked by mule paths, and sit down to a home-cooked tagine with a local family — the kind of day that ends up being the one travellers remember.",
+      fr: "Le Haut Atlas se dresse à moins d’une heure de Marrakech, et avec lui un autre Maroc : villages amazighs accrochés aux versants, noyeraies, canaux d’irrigation plus anciens que la ville elle-même. Avec un guide de montagne agréé, vous marcherez dans la vallée d’Imlil à un rythme tranquille, traverserez des villages reliés par des sentiers muletiers, et partagerez un tagine maison chez une famille locale — le genre de journée dont les voyageurs se souviennent le plus.",
     },
     durationLabel: { en: "Full day (9–10h)", fr: "Journée complète (9–10 h)" },
     priceEUR: 75,
@@ -308,7 +308,7 @@ export const tours: Tour[] = [
     image: IMG.atlas1,
     gallery: [IMG.atlas1, IMG.atlas2, IMG.atlas3],
     highlights: [
-      { en: "Hotel pickup in an air-conditioned minivan", fr: "Prise en charge à l'hôtel en minivan climatisé" },
+      { en: "Hotel pickup in an air-conditioned minivan", fr: "Prise en charge à l’hôtel en minivan climatisé" },
       { en: "Licensed mountain guide for the valley walk", fr: "Guide de montagne agréé pour la marche en vallée" },
       { en: "Home-cooked lunch with a Berber family", fr: "Déjeuner fait maison chez une famille berbère" },
       { en: "Easy 2h walk — no experience needed", fr: "Marche facile de 2 h — aucune expérience requise" },
@@ -324,15 +324,15 @@ export const tours: Tour[] = [
       },
       {
         time: "10:00",
-        title: { en: "Imlil valley walk", fr: "Marche dans la vallée d'Imlil" },
+        title: { en: "Imlil valley walk", fr: "Marche dans la vallée d’Imlil" },
         body: {
-          en: "Two easy hours on mule paths between villages, under Toubkal's 4,167 m summit.",
+          en: "Two easy hours on mule paths between villages, under Toubkal’s 4,167 m summit.",
           fr: "Deux heures faciles sur les sentiers muletiers entre les villages, sous les 4 167 m du Toubkal.",
         },
       },
       {
         time: "13:00",
-        title: { en: "Lunch in a family home", fr: "Déjeuner chez l'habitant" },
+        title: { en: "Lunch in a family home", fr: "Déjeuner chez l’habitant" },
         body: {
           en: "Tagine, mountain bread and walnut honey on a terrace facing the peaks.",
           fr: "Tagine, pain de montagne et miel aux noix sur une terrasse face aux sommets.",
@@ -355,13 +355,13 @@ export const tours: Tour[] = [
     ],
     excludes: [
       { en: "Mule ride (bookable on site, ~€15)", fr: "Balade à dos de mule (réservable sur place, ~15 €)" },
-      { en: "Tips for guide and host family", fr: "Pourboires guide et famille d'accueil" },
+      { en: "Tips for guide and host family", fr: "Pourboires guide et famille d’accueil" },
     ],
     meetingPoint: {
       name: { en: "Your Marrakech hotel or riad", fr: "Votre hôtel ou riad à Marrakech" },
       details: {
         en: "We confirm your exact pickup time by WhatsApp the evening before.",
-        fr: "Nous confirmons l'heure exacte de prise en charge par WhatsApp la veille au soir.",
+        fr: "Nous confirmons l’heure exacte de prise en charge par WhatsApp la veille au soir.",
       },
       mapsQuery: "Imlil, Morocco",
     },
@@ -377,7 +377,7 @@ export const tours: Tour[] = [
         q: { en: "What about winter?", fr: "Et en hiver ?" },
         a: {
           en: "The valley walk runs year-round; in snow we adapt the route. The peaks are at their most beautiful December–April.",
-          fr: "La marche en vallée se fait toute l'année ; en cas de neige, l'itinéraire est adapté. Les sommets sont les plus beaux de décembre à avril.",
+          fr: "La marche en vallée se fait toute l’année ; en cas de neige, l’itinéraire est adapté. Les sommets sont les plus beaux de décembre à avril.",
         },
       },
       {
@@ -394,15 +394,15 @@ export const tours: Tour[] = [
     category: "desert",
     title: {
       en: "Agafay Desert Sunset & Dinner Under the Stars",
-      fr: "Coucher de soleil et dîner sous les étoiles au désert d'Agafay",
+      fr: "Coucher de soleil et dîner sous les étoiles au désert d’Agafay",
     },
     tagline: {
       en: "Stone desert, golden hour, campfire dinner — the Sahara feeling, 40 minutes from town.",
-      fr: "Désert de pierre, heure dorée, dîner au feu de camp — l'émotion du Sahara à 40 minutes de la ville.",
+      fr: "Désert de pierre, heure dorée, dîner au feu de camp — l’émotion du Sahara à 40 minutes de la ville.",
     },
     description: {
-      en: "You don't need three days on the road to feel the desert. The Agafay plateau — a lunar expanse of stone hills southwest of Marrakech — turns pure gold at sunset, with the snow line of the Atlas floating behind it. We drive you out in the late afternoon, pour mint tea on a dune crest as the light drops, then sit you down at our partner camp for a candlelit Moroccan dinner with Amazigh musicians around the fire. Back in Marrakech by 22:30.",
-      fr: "Pas besoin de trois jours de route pour ressentir le désert. Le plateau d'Agafay — une étendue lunaire de collines de pierre au sud-ouest de Marrakech — devient or pur au couchant, avec la ligne enneigée de l'Atlas en toile de fond. Départ en fin d'après-midi, thé à la menthe sur une crête au moment où la lumière tombe, puis dîner marocain aux chandelles au camp partenaire, avec musiciens amazighs autour du feu. Retour à Marrakech vers 22 h 30.",
+      en: "You don’t need three days on the road to feel the desert. The Agafay plateau — a lunar expanse of stone hills southwest of Marrakech — turns pure gold at sunset, with the snow line of the Atlas floating behind it. We drive you out in the late afternoon, pour mint tea on a dune crest as the light drops, then sit you down at our partner camp for a candlelit Moroccan dinner with Amazigh musicians around the fire. Back in Marrakech by 22:30.",
+      fr: "Pas besoin de trois jours de route pour ressentir le désert. Le plateau d’Agafay — une étendue lunaire de collines de pierre au sud-ouest de Marrakech — devient or pur au couchant, avec la ligne enneigée de l’Atlas en toile de fond. Départ en fin d’après-midi, thé à la menthe sur une crête au moment où la lumière tombe, puis dîner marocain aux chandelles au camp partenaire, avec musiciens amazighs autour du feu. Retour à Marrakech vers 22 h 30.",
     },
     durationLabel: { en: "Half day (5–6h, evening)", fr: "Demi-journée (5–6 h, soirée)" },
     priceEUR: 89,
@@ -420,10 +420,10 @@ export const tours: Tour[] = [
     itinerary: [
       {
         time: "16:30",
-        title: { en: "Pickup & drive to Agafay", fr: "Départ vers l'Agafay" },
+        title: { en: "Pickup & drive to Agafay", fr: "Départ vers l’Agafay" },
         body: {
           en: "40 minutes southwest through olive country to the edge of the stone desert.",
-          fr: "40 minutes vers le sud-ouest, à travers les oliveraies, jusqu'à l'orée du désert de pierre.",
+          fr: "40 minutes vers le sud-ouest, à travers les oliveraies, jusqu’à l’orée du désert de pierre.",
         },
       },
       {
@@ -431,7 +431,7 @@ export const tours: Tour[] = [
         title: { en: "Golden hour on the crests", fr: "Heure dorée sur les crêtes" },
         body: {
           en: "Walk the ridgelines, mint tea served as the Atlas turns pink behind you.",
-          fr: "Marche sur les crêtes, thé à la menthe servi tandis que l'Atlas rosit derrière vous.",
+          fr: "Marche sur les crêtes, thé à la menthe servi tandis que l’Atlas rosit derrière vous.",
         },
       },
       {
@@ -459,7 +459,7 @@ export const tours: Tour[] = [
     ],
     excludes: [
       { en: "Camel or quad rides (bookable at the camp)", fr: "Balades à dos de chameau ou en quad (réservables au camp)" },
-      { en: "Drinks beyond water and tea", fr: "Boissons autres que l'eau et le thé" },
+      { en: "Drinks beyond water and tea", fr: "Boissons autres que l’eau et le thé" },
     ],
     meetingPoint: {
       name: { en: "Your Marrakech hotel or riad", fr: "Votre hôtel ou riad à Marrakech" },
@@ -471,10 +471,10 @@ export const tours: Tour[] = [
     },
     faqs: [
       {
-        q: { en: "Is Agafay a real desert?", fr: "L'Agafay est-il un vrai désert ?" },
+        q: { en: "Is Agafay a real desert?", fr: "L’Agafay est-il un vrai désert ?" },
         a: {
-          en: "It's a stone desert (reg), not Saharan sand dunes — a lunar landscape that photographs beautifully, without the 8-hour drive.",
-          fr: "C'est un désert de pierre (reg), pas les dunes de sable du Sahara — un paysage lunaire superbe en photo, sans les 8 heures de route.",
+          en: "It’s a stone desert (reg), not Saharan sand dunes — a lunar landscape that photographs beautifully, without the 8-hour drive.",
+          fr: "C’est un désert de pierre (reg), pas les dunes de sable du Sahara — un paysage lunaire superbe en photo, sans les 8 heures de route.",
         },
       },
       {
@@ -501,12 +501,12 @@ export const tours: Tour[] = [
       fr: "Majorelle, palais et patrimoine de Marrakech",
     },
     tagline: {
-      en: "Bahia Palace, the Saadian Tombs and Majorelle's cobalt garden — the city's masterpieces in one morning.",
-      fr: "Palais de la Bahia, tombeaux saadiens et jardin cobalt de Majorelle — les chefs-d'œuvre de la ville en une matinée.",
+      en: "Bahia Palace, the Saadian Tombs and Majorelle’s cobalt garden — the city’s masterpieces in one morning.",
+      fr: "Palais de la Bahia, tombeaux saadiens et jardin cobalt de Majorelle — les chefs-d’œuvre de la ville en une matinée.",
     },
     description: {
-      en: "Marrakech's showpieces deserve context, not queues. With skip-the-line tickets and a licensed guide, this half-day loop covers the Bahia Palace's painted cedar ceilings, the Saadian Tombs rediscovered in 1917, and the Jardin Majorelle — the cobalt-blue garden Yves Saint Laurent saved — with the stories that connect three dynasties of the city's history. Timed to beat both the heat and the crowds.",
-      fr: "Les joyaux de Marrakech méritent du contexte, pas des files d'attente. Avec billets coupe-file et guide agréé, cette boucle d'une demi-journée couvre les plafonds de cèdre peints du palais de la Bahia, les tombeaux saadiens redécouverts en 1917, et le Jardin Majorelle — le jardin bleu cobalt sauvé par Yves Saint Laurent — avec les histoires qui relient trois dynasties. Horaires pensés pour éviter chaleur et foule.",
+      en: "Marrakech’s showpieces deserve context, not queues. With skip-the-line tickets and a licensed guide, this half-day loop covers the Bahia Palace’s painted cedar ceilings, the Saadian Tombs rediscovered in 1917, and the Jardin Majorelle — the cobalt-blue garden Yves Saint Laurent saved — with the stories that connect three dynasties of the city’s history. Timed to beat both the heat and the crowds.",
+      fr: "Les joyaux de Marrakech méritent du contexte, pas des files d’attente. Avec billets coupe-file et guide agréé, cette boucle d’une demi-journée couvre les plafonds de cèdre peints du palais de la Bahia, les tombeaux saadiens redécouverts en 1917, et le Jardin Majorelle — le jardin bleu cobalt sauvé par Yves Saint Laurent — avec les histoires qui relient trois dynasties. Horaires pensés pour éviter chaleur et foule.",
     },
     durationLabel: { en: "4 hours", fr: "4 heures" },
     priceEUR: 49,
@@ -518,7 +518,7 @@ export const tours: Tour[] = [
     highlights: [
       { en: "Skip-the-line entry to all three sites", fr: "Entrées coupe-file aux trois sites" },
       { en: "Bahia Palace & Saadian Tombs with a licensed guide", fr: "Palais de la Bahia et tombeaux saadiens avec guide agréé" },
-      { en: "Jardin Majorelle at the quietest hour", fr: "Jardin Majorelle à l'heure la plus calme" },
+      { en: "Jardin Majorelle at the quietest hour", fr: "Jardin Majorelle à l’heure la plus calme" },
       { en: "Transport between sites included", fr: "Transport entre les sites inclus" },
     ],
     itinerary: [
@@ -526,7 +526,7 @@ export const tours: Tour[] = [
         time: "08:45",
         title: { en: "Bahia Palace", fr: "Palais de la Bahia" },
         body: {
-          en: "First entry of the day into the grand vizier's 19th-century palace — courtyards to ourselves.",
+          en: "First entry of the day into the grand vizier’s 19th-century palace — courtyards to ourselves.",
           fr: "Première entrée de la journée dans le palais du grand vizir — les cours presque pour nous seuls.",
         },
       },
@@ -542,13 +542,13 @@ export const tours: Tour[] = [
         time: "11:15",
         title: { en: "Jardin Majorelle", fr: "Jardin Majorelle" },
         body: {
-          en: "The painter's cactus garden and its YSL story, timed after the morning rush.",
+          en: "The painter’s cactus garden and its YSL story, timed after the morning rush.",
           fr: "Le jardin de cactus du peintre et son histoire YSL, après la vague matinale.",
         },
       },
     ],
     includes: [
-      { en: "All entrance tickets (Bahia, Saadian Tombs, Majorelle)", fr: "Tous les billets d'entrée (Bahia, tombeaux saadiens, Majorelle)" },
+      { en: "All entrance tickets (Bahia, Saadian Tombs, Majorelle)", fr: "Tous les billets d’entrée (Bahia, tombeaux saadiens, Majorelle)" },
       { en: "Licensed guide (EN/FR)", fr: "Guide agréé (EN/FR)" },
       { en: "Transport between the sites", fr: "Transport entre les sites" },
     ],
@@ -559,7 +559,7 @@ export const tours: Tour[] = [
     meetingPoint: {
       name: { en: "Bahia Palace entrance, Rue Riad Zitoun el Jdid", fr: "Entrée du palais de la Bahia, rue Riad Zitoun el Jdid" },
       details: {
-        en: "Your guide holds an 'Atlas & Medina' sign by the ticket office.",
+        en: "Your guide holds an 'Atlas & Medina’ sign by the ticket office.",
         fr: "Votre guide tient une pancarte « Atlas & Medina » près de la billetterie.",
       },
       mapsQuery: "Bahia Palace, Marrakech",
@@ -569,14 +569,14 @@ export const tours: Tour[] = [
         q: { en: "Are tickets really included?", fr: "Les billets sont-ils vraiment inclus ?" },
         a: {
           en: "Yes — all three sites. No queuing at ticket offices; your guide has everything.",
-          fr: "Oui — les trois sites. Aucune file d'attente ; votre guide a tout en main.",
+          fr: "Oui — les trois sites. Aucune file d’attente ; votre guide a tout en main.",
         },
       },
       {
         q: { en: "Is Majorelle crowded?", fr: "Majorelle est-il bondé ?" },
         a: {
           en: "It can be — which is why we enter after the morning tour-bus wave, when the garden breathes again.",
-          fr: "Il peut l'être — c'est pourquoi nous entrons après la vague des bus du matin, quand le jardin respire à nouveau.",
+          fr: "Il peut l’être — c’est pourquoi nous entrons après la vague des bus du matin, quand le jardin respire à nouveau.",
         },
       },
     ],
@@ -589,12 +589,12 @@ export const tours: Tour[] = [
       fr: "Excursion à Essaouira, la côte atlantique",
     },
     tagline: {
-      en: "Blue boats, Atlantic air and a UNESCO medina — Morocco's coolest port town in a day.",
+      en: "Blue boats, Atlantic air and a UNESCO medina — Morocco’s coolest port town in a day.",
       fr: "Barques bleues, air atlantique et médina UNESCO — le plus beau port du Maroc en une journée.",
     },
     description: {
-      en: "When Marrakech turns up the heat, Essaouira answers with Atlantic wind. Three hours' drive through argan country (with a stop at a women's argan-oil cooperative) brings you to the white-and-blue port city the Portuguese fortified in the 16th century. Walk the ramparts from Game of Thrones, watch the blue fishing boats unload, eat grilled sardines on the quay, and lose yourself in a medina that's everything Marrakech's is — minus the crowds and the hustle.",
-      fr: "Quand Marrakech monte en température, Essaouira répond par le vent de l'Atlantique. Trois heures de route à travers le pays de l'arganier (avec halte dans une coopérative féminine d'huile d'argan) mènent à la cité portuaire blanche et bleue fortifiée par les Portugais au XVIe siècle. Parcourez les remparts vus dans Game of Thrones, regardez les barques bleues décharger, mangez des sardines grillées sur le quai, et perdez-vous dans une médina qui a tout de celle de Marrakech — sans la foule ni la pression.",
+      en: "When Marrakech turns up the heat, Essaouira answers with Atlantic wind. Three hours’ drive through argan country (with a stop at a women’s argan-oil cooperative) brings you to the white-and-blue port city the Portuguese fortified in the 16th century. Walk the ramparts from Game of Thrones, watch the blue fishing boats unload, eat grilled sardines on the quay, and lose yourself in a medina that’s everything Marrakech’s is — minus the crowds and the hustle.",
+      fr: "Quand Marrakech monte en température, Essaouira répond par le vent de l’Atlantique. Trois heures de route à travers le pays de l’arganier (avec halte dans une coopérative féminine d’huile d’argan) mènent à la cité portuaire blanche et bleue fortifiée par les Portugais au XVIe siècle. Parcourez les remparts vus dans Game of Thrones, regardez les barques bleues décharger, mangez des sardines grillées sur le quai, et perdez-vous dans une médina qui a tout de celle de Marrakech — sans la foule ni la pression.",
     },
     durationLabel: { en: "Full day (10–11h)", fr: "Journée complète (10–11 h)" },
     priceEUR: 69,
@@ -605,24 +605,24 @@ export const tours: Tour[] = [
     gallery: [IMG.essaouira1, IMG.essaouira2, IMG.essaouira3],
     highlights: [
       { en: "UNESCO-listed medina and Portuguese ramparts", fr: "Médina classée UNESCO et remparts portugais" },
-      { en: "Argan oil cooperative stop en route", fr: "Halte dans une coopérative d'huile d'argan" },
+      { en: "Argan oil cooperative stop en route", fr: "Halte dans une coopérative d’huile d’argan" },
       { en: "Free time for the port, beach and galleries", fr: "Temps libre pour le port, la plage et les galeries" },
-      { en: "Hotel pickup, A/C transport", fr: "Prise en charge à l'hôtel, transport climatisé" },
+      { en: "Hotel pickup, A/C transport", fr: "Prise en charge à l’hôtel, transport climatisé" },
     ],
     itinerary: [
       {
         time: "08:00",
-        title: { en: "Pickup & argan country", fr: "Départ et pays de l'arganier" },
+        title: { en: "Pickup & argan country", fr: "Départ et pays de l’arganier" },
         body: {
-          en: "Westward through argan groves; mid-route stop at a women's cooperative to see the pressing.",
-          fr: "Cap à l'ouest à travers les arganeraies ; halte dans une coopérative féminine pour voir le pressage.",
+          en: "Westward through argan groves; mid-route stop at a women’s cooperative to see the pressing.",
+          fr: "Cap à l’ouest à travers les arganeraies ; halte dans une coopérative féminine pour voir le pressage.",
         },
       },
       {
         time: "11:00",
         title: { en: "Guided walk: ramparts & port", fr: "Visite guidée : remparts et port" },
         body: {
-          en: "The Skala fortifications, the shipyard and the blue boats, and the medina's main arteries.",
+          en: "The Skala fortifications, the shipyard and the blue boats, and the medina’s main arteries.",
           fr: "La Skala, le chantier naval et les barques bleues, puis les artères principales de la médina.",
         },
       },
@@ -631,7 +631,7 @@ export const tours: Tour[] = [
         title: { en: "Free afternoon", fr: "Après-midi libre" },
         body: {
           en: "Grilled fish on the quay, gallery-hopping or the beach — Essaouira rewards wandering.",
-          fr: "Poisson grillé sur le quai, galeries d'art ou plage — Essaouira se savoure en flânant.",
+          fr: "Poisson grillé sur le quai, galeries d’art ou plage — Essaouira se savoure en flânant.",
         },
       },
       {
@@ -647,7 +647,7 @@ export const tours: Tour[] = [
       { en: "Hotel pickup and drop-off", fr: "Transferts hôtel aller-retour" },
       { en: "A/C transport with professional driver", fr: "Transport climatisé avec chauffeur professionnel" },
       { en: "Guided walk of the ramparts and medina", fr: "Visite guidée des remparts et de la médina" },
-      { en: "Argan cooperative visit", fr: "Visite de la coopérative d'argan" },
+      { en: "Argan cooperative visit", fr: "Visite de la coopérative d’argan" },
     ],
     excludes: [
       { en: "Lunch (we point you to the good quays)", fr: "Déjeuner (nous vous indiquons les bons quais)" },
@@ -663,10 +663,10 @@ export const tours: Tour[] = [
     },
     faqs: [
       {
-        q: { en: "Is three hours' drive worth it?", fr: "Trois heures de route, ça vaut le coup ?" },
+        q: { en: "Is three hours’ drive worth it?", fr: "Trois heures de route, ça vaut le coup ?" },
         a: {
           en: "If you have three or more days in Marrakech, yes — the ocean air and slower pace are the perfect counterpoint to the medina.",
-          fr: "Si vous avez trois jours ou plus à Marrakech, oui — l'air marin et le rythme plus lent sont le contrepoint parfait de la médina.",
+          fr: "Si vous avez trois jours ou plus à Marrakech, oui — l’air marin et le rythme plus lent sont le contrepoint parfait de la médina.",
         },
       },
       {

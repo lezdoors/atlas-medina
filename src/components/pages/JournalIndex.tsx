@@ -47,7 +47,7 @@ const ENTRIES: Entry[] = [
     index: "N.012",
     title: {
       en: "Agafay at noon, before the tents",
-      fr: "L'Agafay à midi, avant les tentes",
+      fr: "L’Agafay à midi, avant les tentes",
     },
     tag: { en: "Terrain", fr: "Terrain" },
     date: { en: "January 2026", fr: "Janvier 2026" },
@@ -97,7 +97,7 @@ const ENTRIES: Entry[] = [
     index: "N.007",
     title: {
       en: "Argan, cracked the old way",
-      fr: "L'argan, cassé à l'ancienne",
+      fr: "L’argan, cassé à l’ancienne",
     },
     tag: { en: "Craft", fr: "Artisanat" },
     date: { en: "October 2025", fr: "Octobre 2025" },
@@ -149,7 +149,7 @@ export default function JournalIndex() {
                   alt={entry.title[locale]}
                   fill
                   sizes="(min-width: 768px) 30vw, 100vw"
-                  className="object-cover grayscale-[20%] transition-[transform,filter] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+                  className="object-cover grayscale-[20%] transition-[filter] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:grayscale-0 motion-reduce:transition-none"
                 />
                 <span className="absolute top-3 right-4 z-10 font-display text-sm text-bone/30">
                   {entry.index}

@@ -39,3 +39,9 @@ export const UI = {
 export function formatPrice(priceEUR: number, locale: Locale): string {
   return locale === "fr" ? `${priceEUR} €` : `€${priceEUR}`;
 }
+
+/** Rating formatter — French uses the decimal comma (4,9). */
+export function formatRating(rating: number | string, locale: Locale): string {
+  const value = typeof rating === "number" ? rating.toFixed(1) : rating;
+  return locale === "fr" ? value.replace(".", ",") : value;
+}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import {
+  CAPTION,
   LABEL,
   LABEL_SM,
   LineMask,
@@ -28,11 +29,6 @@ const STR: Record<string, L> = {
   whatsappNote: {
     en: "Fastest — a human replies the same day.",
     fr: "Le plus rapide — un humain répond le jour même.",
-  },
-  emailLabel: { en: "Email", fr: "E-mail" },
-  emailNote: {
-    en: "For groups, partnerships and slow questions.",
-    fr: "Pour les groupes, partenariats et questions de fond.",
   },
   privateLabel: { en: "Private tours", fr: "Visites privées" },
   privateBody: {
@@ -65,27 +61,29 @@ export default function ContactPage() {
   return (
     <div className="px-5 pt-28 pb-24 md:px-10 md:pt-36 md:pb-32 xl:px-16">
       {/* ————— Header ————— */}
-      <Reveal>
-        <p className={`${LABEL} text-ink/60`}>{STR.eyebrow[locale]}</p>
-      </Reveal>
-      <h1 className="mt-6 font-display uppercase tracking-tight leading-[0.85] text-[clamp(3rem,9vw,7.5rem)] text-ink">
-        <LineMask>{STR.line1[locale]}</LineMask>
-        <LineMask delay={0.1}>
-          {STR.line2[locale]}
-          <span className="text-ember">.</span>
-        </LineMask>
-      </h1>
-      <Reveal delay={0.2}>
-        <p className="mt-8 text-[15px] leading-relaxed text-ink/75 max-w-[42ch]">
-          {STR.intro[locale]}
-        </p>
-      </Reveal>
+      <header className="mb-16 md:mb-24">
+        <Reveal>
+          <p className={`${LABEL} text-ink/60`}>{STR.eyebrow[locale]}</p>
+        </Reveal>
+        <h1 className="mt-8 font-display uppercase tracking-tight leading-[0.85] text-[clamp(3rem,9vw,8rem)] text-ink">
+          <LineMask>{STR.line1[locale]}</LineMask>
+          <LineMask delay={0.12}>
+            {STR.line2[locale]}
+            <span className="text-ember">.</span>
+          </LineMask>
+        </h1>
+        <Reveal delay={0.2} className="mt-8">
+          <p className="text-[15px] leading-relaxed text-ink/75 max-w-[48ch]">
+            {STR.intro[locale]}
+          </p>
+        </Reveal>
+      </header>
 
       {/* ————— Channels + photo ————— */}
-      <div className="mt-16 grid gap-y-14 lg:mt-24 lg:grid-cols-12 lg:gap-x-8">
+      <div className="grid grid-cols-1 gap-y-14 lg:grid-cols-12 lg:gap-x-10">
         <div className="lg:col-span-6">
           {/* WhatsApp */}
-          <Reveal>
+          <Reveal delay={0.08}>
             <div className="border-t border-ink/12 py-8">
               <p className={`${LABEL_SM} text-sand`}>
                 {STR.whatsappLabel[locale]}
@@ -98,24 +96,8 @@ export default function ContactPage() {
               >
                 {STR.whatsappCta[locale]}
               </a>
-              <p className="mt-3 text-[13px] font-body text-ink/60">
+              <p className="mt-3 text-[13px] leading-relaxed text-ink/60">
                 {STR.whatsappNote[locale]}
-              </p>
-            </div>
-          </Reveal>
-
-          {/* Email */}
-          <Reveal delay={0.08}>
-            <div className="border-t border-ink/12 py-8">
-              <p className={`${LABEL_SM} text-sand`}>{STR.emailLabel[locale]}</p>
-              <a
-                href={`mailto:${COMPANY.email}`}
-                className="link-underline mt-4 inline-block font-body text-lg text-ink"
-              >
-                {COMPANY.email}
-              </a>
-              <p className="mt-3 text-[13px] font-body text-ink/60">
-                {STR.emailNote[locale]}
               </p>
             </div>
           </Reveal>
@@ -160,7 +142,7 @@ export default function ContactPage() {
                   />
                 </motion.div>
               </div>
-              <figcaption className={`${LABEL_SM} mt-4 text-sand`}>
+              <figcaption className={CAPTION}>
                 {STR.caption[locale]}
               </figcaption>
             </figure>
